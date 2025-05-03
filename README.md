@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 To run this code you need to have your textual documents in your project directory with the **.txt** extension. When you run the script, it will automatically load all the documents with that extension and then compute the similarities between them as shown below;
 
 ```bash
-$ python3 app.py
+python3 app.py
 ```
 
 ## Example Output
