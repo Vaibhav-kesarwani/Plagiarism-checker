@@ -16,6 +16,7 @@ To get started with the code on this repo, you need to either **clone** or **dow
 
 ```bash
 git clone https://github.com/Vaibhav-kesarwani/Plagiarism-checker.git
+cd Plagiarism-checker
 ```
 
 ## Dependencies
