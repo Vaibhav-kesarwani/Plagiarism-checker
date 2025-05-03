@@ -36,7 +36,7 @@ $ python3 app.py
 
 ## Example Output
 
-```lua
+```txt
 john.txt <--> juma.txt => 54.66% match
 fatma.txt <--> juma.txt => 18.64% match
 fatma.txt <--> john.txt => 14.81% match
