@@ -31,12 +31,13 @@ def check_plagiarism():
         del new_vectors[current_index]
         for student_b, text_vector_b in new_vectors:
             sim_score = similarity(text_vector_a, text_vector_b)[0][1]
+            percentage = round(sim_score * 100, 2)  # Convert to percentage
             student_pair = tuple(sorted((student_a, student_b)))
-            score = (student_pair[0], student_pair[1], sim_score)
+            score = (student_pair[0], student_pair[1], percentage)
             plagiarism_results.add(score)
     return plagiarism_results
 
 
 # Print results
-for data in check_plagiarism():
-    print(data)
+for student_a, student_b, match_percentage in check_plagiarism():
+    print(f"{student_a} <--> {student_b} => {match_percentage}% match")
