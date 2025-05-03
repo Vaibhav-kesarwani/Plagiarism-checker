@@ -6,17 +6,16 @@ This repo consists of a source code of a Python script which detects plagiarism 
 
 You might be wondering how plagiarism detection on textual data is done, well it ain't as complicated as you may think.
 
-We all know that computers are good with numbers; so in order to compute the similarity between two text documents, the textual raw data is transformed into vectors => arrays of numbers and from that, we make use of basic knowledge of vectors to compute the similarity between them.
+We all know that computers are good with numbers so in order to compute the similarity between two text documents, the textual raw data is transformed into vectors and than into an arrays of numbers and from that, we make use of basic knowledge of vectors to compute the similarity between them.
 
 This repo contains a basic example on how to do that.
 
-
 ## Getting Started
 
-To get started with the code on this repo, you need to either *clone* or *download* this repo into your machine as shown below;
+To get started with the code on this repo, you need to either **clone** or **download** this repo into your machine as shown below
 
 ```bash
-git clone 
+git clone https://github.com/Vaibhav-kesarwani/Plagiarism-checker.git
 ```
 
 ## Dependencies
